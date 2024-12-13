@@ -1,52 +1,52 @@
-# Server Template
+# URL Shortener  
 
-## Overview
+## Overview  
+The URL Shortener is a TypeScript-based project designed to demonstrate database management and unique ID generation techniques. This application enables users to shorten long URLs into unique, compact links and provides a robust system for managing and tracking URL usage. It includes features such as redirection to original URLs, usage statistics tracking, and user authentication for personalized URL management.  
 
-This is a TypeScript-based server template for creating Express applications. It provides a basic setup with middleware configurations and a method to start the server. This template is designed to be easily extendable and customizable for various backend projects.
+## Features  
+- TypeScript support  
+- URL shortening functionality  
+- Redirection to original URLs  
+- Usage statistics tracking (e.g., number of clicks, locations)  
+- User authentication for personal URL management  
+- Middleware configuration  
+- Server start method  
 
-## Features
+## Tech Stack  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB or PostgreSQL  
+- **ID Generation:** Nanoid or UUID  
 
-- TypeScript support
-- Basic Express setup
-- Middleware configuration
-- Server start method
+## Getting Started  
+Follow these steps to get started with the URL Shortener application:  
 
-## Getting Started
+### Prerequisites  
+- Node.js (version 14 or higher)  
+- npm (Node Package Manager) or yarn  
 
-Follow these steps to get started with the server template:
+### Installation  
+1. **Clone the repository:**  
+    ```bash
+    git clone https://github.com/fadexadex/url-shortener-project-1.git
+    ```  
 
-### Prerequisites
+2. **Navigate to the project directory:**  
+    ```bash
+    cd url-shortener-project-1
+    ```  
 
-- Node.js (version 14 or higher)
-- npm (Node Package Manager) or yarn
+3. **Install dependencies:**  
+    ```bash
+    npm install
+    ```  
+    or  
+    ```bash
+    yarn install
+    ```  
+4. **Start the server:**  
+    ```bash
+    npm start
+    ```  
 
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/server-template.git
-### Installation
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd server-template
-
-3. **Install dependencies:**
-
-   ```bash
-   npm install
-
-  or
-   ```yarn
-   npm install 
-```
-
-### Author
-Fadehan Daniel
-
-
-[![Fadehan Daniel](https://avatars.githubusercontent.com/fadexadex)](https://github.com/fadexadex)
-
-Feel free to connect with me on [GitHub](https://github.com/fadexadex) or [LinkedIn](https://www.linkedin.com/in/danielfadehan).
+### Author  
+Fadehan Daniel  
